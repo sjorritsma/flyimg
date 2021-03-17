@@ -16,12 +16,11 @@ security_key: ""
 security_iv: ""
 
 # restrict domains, false by default
-restricted_domains: false
+restricted_domains: true
 
 # if restricted_domains is enabled, put whitelist domains here
 whitelist_domains:
-    - domain-1.com
-    - domain-2.com
+    - hobbydoos.nl
 
 # Default storage system is local, to use use AWS S3, change this param to s3
 storage_system: local
