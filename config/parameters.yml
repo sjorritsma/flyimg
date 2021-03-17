@@ -20,8 +20,9 @@ restricted_domains: true
 
 # if restricted_domains is enabled, put whitelist domains here
 whitelist_domains:
-    - hobbydoos.nl
-
+    - cdn.hobbydoos.nl
+    - www.hobbydoos.nl
+    
 # Default storage system is local, to use use AWS S3, change this param to s3
 storage_system: local
 
